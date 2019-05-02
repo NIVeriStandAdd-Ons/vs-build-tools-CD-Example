@@ -11,11 +11,6 @@ type = 'lvBuildAll'
 project = '{cd}'
 
 [[test.steps]]
-name = 'Functional_Test'
-type = 'lvVITester'
-test_path='\Source\Tests\Unit\MyTestCase.lvclass'
-
-[[test.steps]]
 name = 'System_Test'
 type = 'lvVITester'
 test_path='\Source\Tests\System\SystemTestCase.lvclass'
